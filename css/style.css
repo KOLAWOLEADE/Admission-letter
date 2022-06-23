@@ -1,0 +1,19 @@
+.main{
+    float: right;
+}
+
+.official{
+    /* display: none; */
+
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+
+}
+
+body{
+    background-color: darkseagreen;
+}
