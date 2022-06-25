@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 
         $(".house").text(houseInput);
-        $(".loacl").text(localInput);
+        $(".local").text(localInput);
         $(".state").text(stateInput);
         $(".country").text(countryInput);
         $(".date").text(dateInput);
