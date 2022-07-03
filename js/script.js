@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    $("#letter").submit(function(event){
+    $(".letter").submit(function(event){
         const houseInput = $("#house").val();
         const localInput = $("#local").val ();
-        const stateInput  = $("#State") .val();
-        const countryInput = $("#Country").val();
+        const stateInput  = $("#state") .val();
+        const countryInput = $("#country").val();
         const dateInput    = $("#date").val();
 
 
@@ -15,6 +15,8 @@ $(document).ready(function(){
 
 
         $("#official").show();
+
+        event.preventDefault();
        
         
 

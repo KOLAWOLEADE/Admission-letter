@@ -1,8 +1,8 @@
-.main{
-    float: right;
+ .Acedu{
+    float: left;
 }
 
-.official{
+#official{
      display: none; 
 
 }
@@ -16,4 +16,13 @@ h1{
 
 body{
     background-color: darkseagreen;
+}
+
+span{
+  font-weight: bolder;
+  color: black;
+}
+
+.address{
+    float: right;
 }
